@@ -10,8 +10,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 python get_data.py
+
 python clean_data.py
+
 python run_analysis.py
+
 python visualize_results.py
 
 To get data, run get_data.py. It downloads adult diabetes data from the CDC and saves it as CSV files. Since the API does not work, I use the CSV files that are already in the data/raw/ folder.
