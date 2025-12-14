@@ -1,0 +1,7 @@
+
+# data rules
+/data/raw/
+/data/processed/
+*.csv
+rm --cached -- 'data/processed/prevalence_state_clean.csv'                    'data/raw/prevalence_state_6vp6-wxuq_2017.csv'
+.csv.xz
