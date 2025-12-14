@@ -4,8 +4,6 @@ Project Name: Adult Diabetes in the United States
 Team Member: Pei-Jou Liu, ID: 7384221314, email: peijoul@usc.edu
 
 Create a virtual environment to run the project this keeps the project’s libraries separate from other projects.
-python3 -m venv venv
-source venv/bin/activate
 
 pip install -r requirements.txt
 
